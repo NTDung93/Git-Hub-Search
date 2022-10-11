@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Hub Search</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">GitHub Search</a>
+        <form class="d-flex" id="form-search">
+          <input class="form-control me-2" type="text" id="username" />
+          <button class="btn btn-outline-success">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- thông báo -->
+    <div id="notification"></div>
+
+    <!-- main -->
+    <main class="mb-3">
+      <!--  -->
+    </main>
+    <!-- footer -->
+    <footer class="bg-light">
+      <div class="container p-3 text-center">
+        GitHub @<i class="fa fa-copyright" aria-hidden="true"></i>
+      </div>
+    </footer>
+    <script src="./api.js"></script>
+    <script src="./ui.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
